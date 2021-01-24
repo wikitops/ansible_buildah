@@ -1,0 +1,4 @@
+# {{ ansible_managed }}
+{% for mountpoint in buildah_mounts %}
+  {{ mountpoint}}
+{% endfor %}

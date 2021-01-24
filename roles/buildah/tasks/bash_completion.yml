@@ -1,0 +1,9 @@
+---
+
+- name: BUILDAH BASH COMPLETION | Configure
+  copy:
+    src: etc/bash_completion.d/buildah
+    dest: /etc/bash_completion.d/buildah
+    owner: root
+    group: root
+    mode: 0644

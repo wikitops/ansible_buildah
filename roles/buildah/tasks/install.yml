@@ -1,0 +1,6 @@
+---
+
+- name: BUILDAH INSTALL | Package
+  package:
+    name: "{{ buildah_package_name }}"
+    state: present

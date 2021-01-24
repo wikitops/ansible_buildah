@@ -1,0 +1,13 @@
+---
+
+- name: BUILDAH | Include variables based on the environment
+  include_vars: "{{ ansible_os_family | lower }}.yml"
+
+- name: BUILDAH | Installation
+  import_tasks: install.yml
+
+- name: BUILDAH | Configuration
+  import_tasks: config.yml
+
+- name: BUILDAH | Bash Completion
+  import_tasks: bash_completion.yml

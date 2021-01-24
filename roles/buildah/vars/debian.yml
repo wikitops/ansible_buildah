@@ -1,0 +1,11 @@
+---
+
+###
+# Debian
+###
+
+# Buildah version
+buildah_version: "1.15.2-1ubuntu2"
+
+# DEB package URL
+buildah_package_name: "buildah={{ buildah_version }}"

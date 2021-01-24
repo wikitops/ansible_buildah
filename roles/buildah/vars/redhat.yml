@@ -1,0 +1,11 @@
+---
+
+###
+# RedHat
+###
+
+# Buildah version
+buildah_version: "1.15.1"
+
+# RPM package URL
+buildah_package_name: "buildah-{{ buildah_version }}"

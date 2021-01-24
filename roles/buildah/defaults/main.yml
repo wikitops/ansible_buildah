@@ -1,0 +1,18 @@
+---
+
+# Default mount points
+buildah_mounts:
+  - /usr/share/rhel/secrets:/run/secrets
+
+# Default container registries where to search images
+buildah_registries_search:
+  - registry.access.redhat.com
+  - registry.redhat.io
+  - docker.io
+  - quay.io
+
+# Default insecure container registries where to search images
+buildah_registries_insecure: []
+
+# Default container registries blocked
+buildah_registries_block: []
